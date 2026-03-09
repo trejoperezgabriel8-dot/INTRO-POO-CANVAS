@@ -1,0 +1,59 @@
+/* Fondo general */
+
+body{
+background: linear-gradient(135deg,#eef2f3,#dfe9f3);
+min-height:100vh;
+display:flex;
+flex-direction:column;
+font-family: "Segoe UI", sans-serif;
+}
+
+
+/* Canvas */
+
+.canvas-box{
+border-radius:12px;
+border:2px solid #ddd;
+box-shadow:0 6px 12px rgba(0,0,0,0.15);
+max-width:100%;
+}
+
+
+/* Cards */
+
+.card{
+border:none;
+border-radius:15px;
+transition:transform .2s, box-shadow .2s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+box-shadow:0 12px 20px rgba(0,0,0,0.2);
+}
+
+
+/* Footer */
+
+.footer{
+margin-top:auto;
+background:#111;
+color:white;
+padding:20px 0;
+font-size:14px;
+}
+
+
+/* Responsive */
+
+@media (max-width:768px){
+
+h1{
+font-size:1.7rem;
+}
+
+.canvas-box{
+width:100%;
+}
+
+}
